@@ -7,16 +7,16 @@ class Config(object):
     # sucks Dude
     APP_ID = int(get_config("APP_ID", "26387127"))
     API_HASH = get_config("API_HASH", "19718ab7acd97d0f71ada2807ddfe47a")
-    LOG_CHANNEL = get_config("LOG_CHANNEL", "RulfEncoderLogs")
+    LOG_CHANNEL = get_config("LOG_CHANNEL", "NEW_ERA_ENCODING_GP")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
-    AUTH_USERS = [-1001934483724, 5446367898]
+    AUTH_USERS = [5446367898]
 # array , simplest method was AUTH_USERS = [] ; AUTH_USERS.append(your telegram id) 🌹
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7257386978:AAGoHTntoUEbi2A3emmIu3R5zHGrXlydpLM")
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
-    BOT_USERNAME = get_config("BOT_USERNAME", "Alya_encoder_bot")
+    BOT_USERNAME = get_config("BOT_USERNAME", "𝙯𝙚𝙧𝙤 𝙩𝙬𝙤 𝙚𝙣𝙘𝙤𝙙𝙚𝙧 𝙗𝙤𝙩")
     MAX_FILE_SIZE = 4194304000
     TG_MAX_FILE_SIZE = 4194304000
     FREE_USER_MAX_FILE_SIZE = 4194304000

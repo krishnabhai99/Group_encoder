@@ -10,7 +10,7 @@ class Config(object):
     LOG_CHANNEL = get_config("LOG_CHANNEL", "krishna_bios")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
-    AUTH_USERS = [5446367898]
+    AUTH_USERS = [5446367898,-4640110174]
 # array , simplest method was AUTH_USERS = [] ; AUTH_USERS.append(your telegram id) 🌹
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7257386978:AAH28bDIlS-2mTnzOonEAz-HxU_ZOwFuhlA")
     # the download location, where the HTTP Server runs
